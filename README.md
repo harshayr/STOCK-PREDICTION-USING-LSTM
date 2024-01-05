@@ -21,6 +21,17 @@ In stock analysis, we need to focus our efforts on identifying leading models th
 ## Overview
 
 Stock prediction is a challenging task that involves the use of various techniques ranging from statistical models to machine learning algorithms. This project leverages [LSTM (Long Short-Term Memory)](https://en.wikipedia.org/wiki/Long_short-term_memory) networks to predict future stock prices based on historical data.
+In this model i have used Adj close, EMA and Bollinger BANDS indicator data as my features.
+
+Exponential moving average (EMA)
+
+The EMA is a moving average which places greater weight on recent prices than ones that are further away from the current time period. This helps to reduce the amount of lag and allows for faster reaction to change in prices.
+
+Bollinger bands
+
+![Comparison Graph](Graphs/indicator.png)
+
+A Bollinger band defines 2 lines that are set 2 deviations apart from the time series’s simple moving average. It sets a constraint on the possibility of the next day’s price as most of the price action happens within this area. The closer the bands, the more volatile the price movement and hence the more likely a current trend may be ending or even reversing.
 
 ## Features
 
@@ -61,7 +72,8 @@ streamlit run main.py
 
 ## Results
 
-The project has achieved 200.094 MSE on the test dataset, showcasing its effectiveness in predicting stock prices.
+The project has achieved 200.094 MSE on the test and train dataset, showcasing its effectiveness in predicting stock prices for 30 days.
 
 ![Comparison Graph](Graphs/pred.png)
+![Comparison Graph](Graphs/train.png)
 
