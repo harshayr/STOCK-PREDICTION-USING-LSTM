@@ -63,5 +63,5 @@ streamlit run main.py
 
 The project has achieved 200.094 MSE on the test dataset, showcasing its effectiveness in predicting stock prices.
 
-![Comparison Graph](/Users/harshalrajput/Desktop/Projects/Stock_prediction/Graphs/pred.png)
+![Comparison Graph](Graphs/pred.png)
 
