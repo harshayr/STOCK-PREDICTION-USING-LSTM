@@ -1,7 +1,5 @@
 <h1>STOCK CHART PREDICTION</h1>
 
-# Define the content for the README.md file
-readme_content = """
 # Stock Prediction Project
 
 This project aims to predict stock prices using Deep learning techniques. The primary goal is to provide insights into potential future price movements based on historical data. However the model that i have build is a lagging model
@@ -37,7 +35,7 @@ To run this project locally, follow these steps:
 
 Step1: First clone the repository using
 ```sh
-git clone https://github.com/harshayr/CANCER-TYPE-DETECTOR.git
+git clone https://github.com/harshayr/STOCK-PREDICTION.git
 ```
 
 Step2: go into current working directory 
