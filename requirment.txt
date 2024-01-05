@@ -1,0 +1,12 @@
+panda
+numpy
+yfinance
+seaborn
+finta
+scikit-learn
+tensorflow
+keras
+pickle
+dill
+matplotlib
+streamlit

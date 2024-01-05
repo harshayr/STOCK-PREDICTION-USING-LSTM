@@ -1,0 +1,13 @@
+[2024-01-04 22:03:55,748] 31 root INFO Data ingestion initiated
+[2024-01-04 22:03:55,749] 31 root INFO Data ingestion initiated
+[2024-01-04 22:03:55,939] 31 root INFO Data ingestion initiated
+[2024-01-04 22:03:56,787] 56 root INFO Data ingestion completed
+[2024-01-04 22:03:56,792] 56 root INFO Data ingestion completed
+[2024-01-04 22:03:56,807] 56 root INFO Data ingestion completed
+[2024-01-04 22:04:01,318] 31 root INFO Data ingestion initiated
+[2024-01-04 22:04:01,823] 56 root INFO Data ingestion completed
+[2024-01-04 22:04:02,144] 31 root INFO Data ingestion initiated
+[2024-01-04 22:04:02,442] 56 root INFO Data ingestion completed
+[2024-01-04 22:04:02,910] 70 absl WARNING At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+[2024-01-04 22:04:02,911] 123 absl WARNING `lr` is deprecated in Keras optimizer, please use `learning_rate` or use the legacy optimizer, e.g.,tf.keras.optimizers.legacy.Adam.
+[2024-01-04 22:04:26,039] 70 absl WARNING At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
