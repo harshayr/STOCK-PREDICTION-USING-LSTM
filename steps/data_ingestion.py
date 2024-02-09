@@ -20,6 +20,7 @@ class DataIngestConfig:
     # train_path = os.path.join("artifacts", "train.csv")
     # test_path = os.path.join("artifacts",'test.csv')
     raw_path = os.path.join("artifacts", "raw.csv")
+    full_path = os.path.join('artifacts', 'full.csv')
 
 
 class IngestData:
@@ -33,6 +34,8 @@ class IngestData:
             
             df = yf.download(compony_name)
             os.makedirs(os.path.dirname(self.ingest_config.raw_path), exist_ok=True)
+            os.makedirs(os.path.dirname(self.ingest_config.full_path), exist_ok=True)
+            
             new_df = pd.DataFrame()
             new_df['Adj Close'] = df['Adj Close']
 
@@ -50,6 +53,7 @@ class IngestData:
 
             final_df = set_index(x,df)
             final_df.to_csv(self.ingest_config.raw_path)
+            df.to_csv(self.ingest_config.full_path)
 
             # train_data,test_data = self.scale_split .split_data(final_df)
 

@@ -1,0 +1,26 @@
+[2024-02-08 10:33:23,068] 31 root INFO Data ingestion initiated
+[2024-02-08 10:33:23,244] 31 root INFO Data ingestion initiated
+[2024-02-08 10:33:34,997] 31 root INFO Data ingestion initiated
+[2024-02-08 10:33:40,452] 56 root INFO Data ingestion completed
+[2024-02-08 10:33:40,533] 56 root INFO Data ingestion completed
+[2024-02-08 10:33:50,081] 31 root INFO Data ingestion initiated
+[2024-02-08 10:33:50,741] 56 root INFO Data ingestion completed
+[2024-02-08 10:34:00,329] 31 root INFO Data ingestion initiated
+[2024-02-08 10:34:00,992] 56 root INFO Data ingestion completed
+[2024-02-08 10:34:00,994] 40 root INFO Initiate data Transformtion
+[2024-02-08 10:34:00,995] 32 root INFO Scaler mode saved
+[2024-02-08 10:34:01,003] 47 root INFO Data Transformation Completed
+[2024-02-08 10:34:01,003] 47 root INFO Model training Started
+[2024-02-08 10:34:01,188] 70 absl WARNING At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+[2024-02-08 10:34:01,190] 123 absl WARNING `lr` is deprecated in Keras optimizer, please use `learning_rate` or use the legacy optimizer, e.g.,tf.keras.optimizers.legacy.Adam.
+[2024-02-08 10:37:29,007] 59 root INFO Model training completed
+[2024-02-08 10:37:29,008] 60 root INFO Model saved succesfully
+[2024-02-08 10:37:31,194] 70 absl WARNING At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+[2024-02-08 10:37:33,048] 70 absl WARNING At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+[2024-02-08 10:37:35,393] 70 absl WARNING At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+[2024-02-08 10:48:41,616] 31 root INFO Data ingestion initiated
+[2024-02-08 10:48:42,032] 56 root INFO Data ingestion completed
+[2024-02-08 10:49:03,364] 31 root INFO Data ingestion initiated
+[2024-02-08 10:49:04,089] 56 root INFO Data ingestion completed
+[2024-02-08 12:32:32,056] 32 root INFO Data ingestion initiated
+[2024-02-08 12:32:33,031] 59 root INFO Data ingestion completed

@@ -146,13 +146,15 @@ def pred(dl,forcast_days):
             tr_pred = np.repeat(y_pred, 5, axis = -1)
             y_pred_new = scaler.inverse_transform(tr_pred)[:,0]
             result.append(y_pred_new[0])
-
+            
+            #calculate ems
             last_ema = data[-2][1]
             close_price = data[-1][0]
             ema = (close_price*0.0952) + last_ema*(1-0.0952)
-
+      
             df = pd.DataFrame(data, columns=cols)
 
+            # calculate boillinger bands
             middle = df["Adj Close"].iloc[-20:].sum()/20
             higher = middle + 2 * list(df['Adj Close'].rolling(20).std())[-1]
             lower = middle - 2 * list(df['Adj Close'].rolling(20).std())[-1]
@@ -177,10 +179,12 @@ def pred(dl,forcast_days):
             y_pred_new = scaler.inverse_transform(tr_pred)[:,0]
             result.append(y_pred_new[0])
 
+            # calculate ema
             last_ema = data[-2][1]
             close_price = data[-1][0]
             ema = (close_price*0.0952) + (last_ema*(1-0.0952))
-
+            
+            # calculate boillinger band
             df = pd.DataFrame(data, columns=cols)
             middle = df["Adj Close"].iloc[-20:].sum()/20
             higher = middle + 2 * list(df['Adj Close'].rolling(20).std())[-1]

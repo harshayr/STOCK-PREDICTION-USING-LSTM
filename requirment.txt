@@ -6,7 +6,6 @@ finta
 scikit-learn
 tensorflow
 keras
-pickle
 dill
 matplotlib
 streamlit

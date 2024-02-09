@@ -10,6 +10,8 @@ Lagging models: Models that react to a price change only after it has occurred.
 
 In stock analysis, we need to focus our efforts on identifying leading models that is able to foretell the price position accurately.
 
+For more details tou can check my [Blog](https://medium.com/@rajputharshal2002/a-deep-dive-into-stock-price-forecasting-with-lstm-and-technical-indicators-86fcca59c3a5)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
